@@ -6,13 +6,13 @@
     <h1 class="font-bold text-gray-700 text-4xl">HISAB-IN</h1>
     <p class="text-gray-500 mb-6">
       <span class="text-lg font-semibold italic"
-        >Hitung Waktu Sholatmu! (Eksperimental)
+        >Hitung Waktu Sholatmu! (Experimental)
       </span>
       - By A. Y. Firdaus -
       <a
-        class="text-blue-300 italic "
+        class="text-blue-300 italic"
         target="_blank"
-        href="https://github.com/tikosewads/"
+        href="https://github.com/tikosewads/Hisabin"
         >Ikut Kontribusi</a
       >
     </p>
@@ -24,13 +24,11 @@
       langsung oleh Ust. Hasan Nasir.
     </p>
 
-    <div class="grid grid-cols-1 xl:grid-cols-2 w-full h-50 ">
+    <div class="grid grid-cols-1 xl:grid-cols-2 w-full h-50">
       <div
         class="px-6 pt-5 pb-7 bg-white dark:bg-gray-300 filter shadow-md mb-14 rounded-xl mr-1"
       >
-        <h4 class="font-semibold text-base mb-3">
-          Lintang Tempat (φ) :
-        </h4>
+        <h4 class="font-semibold text-base mb-3">Lintang Tempat (φ) :</h4>
         <div class="flex flex-wrap justify-center text-center">
           <input type="number" v-model="lintangTempat[0]" />
           <input type="number" v-model="lintangTempat[1]" />
@@ -44,33 +42,25 @@
           <input type="number" v-model="deklinasiMatahari[1]" />
           <input type="number" v-model="deklinasiMatahari[2]" />
         </div>
-        <h4 class="font-semibold text-base mt-5 mb-3">
-          Equation of Time :
-        </h4>
+        <h4 class="font-semibold text-base mt-5 mb-3">Equation of Time :</h4>
         <div class="text-center">
           <input type="number" v-model="eot[0]" />
           <input type="number" v-model="eot[1]" />
           <input type="number" v-model="eot[2]" />
         </div>
-        <h4 class="font-semibold text-base mt-5 mb-3">
-          Bujur Tempat :
-        </h4>
+        <h4 class="font-semibold text-base mt-5 mb-3">Bujur Tempat :</h4>
         <div class="text-center">
           <input type="number" v-model="bujurTempat[0]" />
           <input type="number" v-model="bujurTempat[1]" />
           <input type="number" v-model="bujurTempat[2]" />
         </div>
-        <h4 class="font-semibold text-base mt-5 mb-3">
-          Bujur Daerah :
-        </h4>
+        <h4 class="font-semibold text-base mt-5 mb-3">Bujur Daerah :</h4>
         <div class="text-center">
           <input type="number" v-model="bujurDaerah[0]" />
           <input type="number" v-model="bujurDaerah[1]" />
           <input type="number" v-model="bujurDaerah[2]" />
         </div>
-        <h4 class="font-semibold text-base mt-5 mb-3">
-          Ikhtiyat :
-        </h4>
+        <h4 class="font-semibold text-base mt-5 mb-3">Ikhtiyat :</h4>
         <div class="text-center">
           <input type="number" v-model="ikhtiyat[0]" />
           <input type="number" v-model="ikhtiyat[1]" />
@@ -88,9 +78,7 @@
         class="flex flex-col justify-center bg-gradient-to-r from-manis to-red-400 rounded-xl ml-1 mb-14 py-5 shadow-md"
       >
         <div v-if="!dataCompleted" class="text-center px-4 py-6">
-          <h1 class="font-bold text-2xl text-white">
-            Disini Masih Kosong!
-          </h1>
+          <h1 class="font-bold text-2xl text-white">Disini Masih Kosong!</h1>
           <p class="text-white">
             Setelah memasukan data sepenuhnya, rincian waktu sholat akan muncul
             disini.
