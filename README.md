@@ -1,24 +1,32 @@
+
 # Hisabin
+Sebuah aplikasi untuk menghitung waktu sholat berdasarkan data awal. Diperuntungkan untuk media pembelajaran Ilmu Falak.
 
-## Project setup
-```
-npm install
-```
+## Kegunaan
+Sejauh ini hanya bisa memasukan data dengan manual serta menampilan waktu sholat Maghrib, Isya, dan Shubuh. Dengan tambahan menampilkan setiap hasil detail perhitungan.
+## What's Next?
+Fitur yang mungkin akan dikembangkan :
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+ - [ ] Refactor :pepega: code
+ - [ ] Waktu Dzuhur
+ - [ ] Waktu Ashar
+ - [ ] Pengambilan koordinat menggunakan GPS
+ - [ ] Pengambilan koordinat dari API
+ - [ ] Mode Detail (Pembelajaran) dan Mode Simple
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Tech Stack
+Penggunaan Node JS hanya untuk mempermudah development.
+>  - Node JS 
+>  - Vue / Vue-cli 
+>  - Tailwind CSS 
+>  - [Library Waktu Sholat](https://github.com/tikosewads/IslamicPrayerTimes)
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Setup Proyek Secara Lokal
+Setelah diclone, instalasi dependency perlu dilakukan dengan command :
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+     $ npm install
+
+Lalu dijalankan secara lokal dengan command :
+
+    $ npm run serve
+
