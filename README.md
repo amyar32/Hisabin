@@ -1,6 +1,6 @@
 
 # Hisabin
-Sebuah aplikasi untuk menghitung waktu sholat berdasarkan data awal. Diperuntungkan untuk media pembelajaran Ilmu Falak.
+Sebuah aplikasi untuk menghitung waktu sholat berdasarkan data awal. Diperuntungkan untuk media pembelajaran Ilmu Falak.  
 Live Demo - [Hisabin](https://hisabin.vercel.app/)
 
 ## Kegunaan
