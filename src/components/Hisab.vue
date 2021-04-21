@@ -85,6 +85,7 @@
           </p>
         </div>
 
+        <!-- render-list -->
         <jadwal-list
           :dataCompleted="dataCompleted"
           :waktuSholat="maghrib"
@@ -100,33 +101,6 @@
           :waktuSholat="shubuh"
           title="Waktu Sholat Shubuh"
         ></jadwal-list>
-
-        <!-- <h4 class="font-semibold text-base mt-6 mb-4">
-          <span class="text-lg font-bold">Rincian Waktu Isya :</span>
-        </h4>
-        <ul>
-          <li
-            class="list-disc list-inside"
-            v-for="(value, key) in isya"
-            :key="key"
-          >
-            <span class="font-semibold">{{ key }}</span>
-            : {{ value }}
-          </li>
-        </ul>
-        <h4 class="font-semibold text-gray-900 text-base mt-6 mb-4">
-          <span class="text-lg font-bold">Rincian Waktu Shubuh :</span>
-        </h4>
-        <ul>
-          <li
-            class="list-disc list-inside"
-            v-for="(value, key) in shubuh"
-            :key="key"
-          >
-            <span class="font-semibold">{{ key }}</span>
-            : {{ value }}
-          </li>
-        </ul> -->
       </div>
     </div>
   </div>

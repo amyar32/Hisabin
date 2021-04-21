@@ -1,5 +1,4 @@
 <template>
-  <!-- This example requires Tailwind CSS v2.0+ -->
   <nav class="bg-gray-800 w-full shadow-xl fixed">
     <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
       <div class="relative flex items-center justify-between h-16">
@@ -15,9 +14,6 @@
             <span class="sr-only">Open main menu</span>
             <!--
             Icon when menu is closed.
-
-            Heroicon name: outline/menu
-
             Menu open: "hidden", Menu closed: "block"
           -->
             <svg
@@ -37,9 +33,6 @@
             </svg>
             <!--
             Icon when menu is open.
-
-            Heroicon name: outline/x
-
             Menu open: "block", Menu closed: "hidden"
           -->
             <svg
@@ -105,7 +98,6 @@
             class="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
           >
             <span class="sr-only">Github</span>
-            <!-- Heroicon name: outline/bell -->
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -123,7 +115,6 @@
             class="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white ml-2"
           >
             <span class="sr-only">Twitter</span>
-            <!-- Heroicon name: outline/bell -->
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -141,7 +132,6 @@
             class="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white ml-2"
           >
             <span class="sr-only">Instagram</span>
-            <!-- Heroicon name: outline/bell -->
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -157,7 +147,7 @@
       </div>
     </div>
 
-    <!-- Mobile menu, show/hide based on menu state. -->
+    <!-- Mobile menu -->
     <div :class="mainButton" id="mobile-menu">
       <div class="px-2 pt-2 pb-3 space-y-1">
         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
