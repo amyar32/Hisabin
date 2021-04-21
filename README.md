@@ -13,6 +13,7 @@ Sejauh ini hanya bisa memasukan data dengan manual serta menampilan waktu sholat
 Fitur/Fix yang mungkin akan dikerjakan :
 
 - [ ] Memisahkan list input jadi komponen
+- [ ] Penambahan Zona Waktu
 - [ ] Waktu Dzuhur
 - [ ] Waktu Ashar
 - [ ] Pengambilan koordinat menggunakan GPS
