@@ -30,7 +30,8 @@ Penggunaan Node JS hanya untuk mempermudah development.
 
 ## Setup Proyek Secara Lokal
 
-Setelah diclone, instalasi dependency perlu dilakukan dengan command :
+Pastikan Node Js v 14.15 + telah terinstal.  
+Setelah diinstal lalu clone dan instalasi dependency perlu dilakukan dengan command :
 
      $ npm install
 
