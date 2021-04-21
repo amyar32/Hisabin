@@ -26,7 +26,7 @@
 
     <div class="grid grid-cols-1 xl:grid-cols-2 w-full h-50">
       <div
-        class="px-6 pt-5 pb-7 bg-white dark:bg-gray-300 filter shadow-md mb-14 rounded-xl mr-1"
+        class="px-6 pt-5 pb-7 bg-white dark:bg-gray-300 filter mb-14 rounded-xl mr-1 shadow-sm transition duration-400 ease-out hover:shadow-2xl"
       >
         <h4 class="font-semibold text-base mb-3">Lintang Tempat (φ) :</h4>
         <div class="flex flex-wrap justify-center text-center">
@@ -68,14 +68,13 @@
         </div>
         <button
           @click="fill"
-          class="bg-gradient-to-r from-manis to-red-400 text-white mt-6 w-40 h-10 rounded-xl shadow-md hover:shadow-none hover:text-gray-100 font-bold"
+          class="btn bg-gray-100 text-gray-700 mt-6 w-40 h-10 rounded-xl shadow-md transition duration-400 ease-out hover:bg-jomblo hover:text-white font-bold"
         >
           Isi Data Contoh
         </button>
       </div>
-
       <div
-        class="flex flex-col justify-center bg-gradient-to-r from-manis to-red-400 rounded-xl ml-1 mb-14 py-5 shadow-md"
+        class="flex flex-col justify-center bg-gradient-to-r from-manis to-red-400 rounded-xl ml-1 mb-14 py-5 shadow-sm transition duration-400 ease-out hover:shadow-2xl"
       >
         <div v-if="!dataCompleted" class="text-center px-4 py-6">
           <h1 class="font-bold text-2xl text-white">Disini Masih Kosong!</h1>
@@ -192,5 +191,13 @@ input[type="number"]:active {
 
 h4 {
   @apply text-gray-500;
+}
+
+.btn:focus {
+  @apply outline-none;
+}
+
+.btn:active {
+  @apply bg-gray-300;
 }
 </style>
