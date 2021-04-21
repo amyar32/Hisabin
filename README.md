@@ -10,14 +10,15 @@ Sejauh ini hanya bisa memasukan data dengan manual serta menampilan waktu sholat
 
 ## What's Next?
 
-Fitur yang mungkin akan dikembangkan :
+Fitur/Fix yang mungkin akan dikerjakan :
 
-- [ ] Refactor :pepega: code
+- [ ] Memisahkan list inpun jadi komponen
 - [ ] Waktu Dzuhur
 - [ ] Waktu Ashar
 - [ ] Pengambilan koordinat menggunakan GPS
 - [ ] Pengambilan koordinat dari API
 - [ ] Mode Detail (Pembelajaran) dan Mode Simple
+- [ ] Refactor calculate() method
 
 ## Tech Stack
 
