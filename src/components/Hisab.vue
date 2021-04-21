@@ -66,12 +66,20 @@
           <input type="number" v-model="ikhtiyat[1]" />
           <input type="number" v-model="ikhtiyat[2]" />
         </div>
-        <button
-          @click="fill"
-          class="btn bg-gray-100 text-gray-700 mt-6 w-40 h-10 rounded-xl shadow-md transition duration-400 ease-out hover:bg-jomblo hover:text-white font-bold"
-        >
-          Isi Data Contoh
-        </button>
+        <div class="flex justify-around">
+          <button
+            @click="fill"
+            class="btn bg-gray-100 text-gray-700 mt-6 w-40 h-10 rounded-xl shadow-md transition duration-400 ease-out hover:bg-jomblo hover:text-white font-bold"
+          >
+            Isi Data Contoh
+          </button>
+          <button
+            @click="clear"
+            class="btn bg-gray-100 text-gray-700 mt-6 w-40 h-10 rounded-xl shadow-md transition duration-400 ease-out hover:bg-jomblo hover:text-white font-bold"
+          >
+            Kosongkan Data
+          </button>
+        </div>
       </div>
       <div
         class="flex flex-col justify-center bg-gradient-to-r from-manis to-red-400 rounded-xl ml-1 mb-14 py-5 shadow-sm transition duration-400 ease-out hover:shadow-2xl"
@@ -132,6 +140,16 @@ export default {
   },
 
   methods: {
+    clear() {
+      (this.lintangTempat = []),
+        (this.deklinasiMatahari = []),
+        (this.eot = []),
+        (this.bujurTempat = []),
+        (this.bujurDaerah = []),
+        (this.ikhtiyat = []);
+      this.dataCompleted = false;
+    },
+
     fill() {
       (this.lintangTempat = [-6, 58, 0]),
         (this.deklinasiMatahari = [11, 16, 34]),
