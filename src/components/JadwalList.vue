@@ -25,7 +25,7 @@
         </li>
         <li class="list-disc list-inside">
           <span class="font-semibold">Waktu Sholat :</span>
-          {{ waktuSholat.waktuSholat }}
+          {{ waktuSholat.waktuSholat }} WIB
         </li>
       </ul>
     </div>
