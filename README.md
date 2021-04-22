@@ -2,7 +2,7 @@
 
 Sebuah aplikasi untuk menghitung waktu sholat berdasarkan data awal. Diperuntungkan untuk media pembelajaran Ilmu Falak.
 
-- Live Demo - [Hisabin](https://hisabin.vercel.app/)
+-   Live Demo - [Hisabin](https://hisabin.site/)
 
 ## Kegunaan
 
@@ -12,23 +12,23 @@ Sejauh ini hanya bisa memasukan data dengan manual serta menampilan waktu sholat
 
 Fitur/Fix yang mungkin akan dikerjakan :
 
-- [ ] Memisahkan list input jadi komponen
-- [ ] Penambahan Zona Waktu
-- [ ] Waktu Dzuhur
-- [ ] Waktu Ashar
-- [ ] Pengambilan koordinat menggunakan GPS
-- [ ] Pengambilan koordinat dari API
-- [ ] Mode Detail (Pembelajaran) dan Mode Simple
-- [ ] Refactor calculate() method
+-   [ ] Memisahkan list input jadi komponen
+-   [ ] Penambahan Zona Waktu
+-   [ ] Waktu Dzuhur
+-   [ ] Waktu Ashar
+-   [ ] Pengambilan koordinat menggunakan GPS
+-   [ ] Pengambilan koordinat dari API
+-   [ ] Mode Detail (Pembelajaran) dan Mode Simple
+-   [ ] Refactor calculate() method
 
 ## Tech Stack
 
 Penggunaan Node JS hanya untuk mempermudah development.
 
-> - Node JS
-> - Vue / Vue-cli
-> - Tailwind CSS
-> - [Library Waktu Sholat](https://github.com/tikosewads/IslamicPrayerTimes) - by me
+> -   Node JS
+> -   Vue / Vue-cli
+> -   Tailwind CSS
+> -   [Library Waktu Sholat](https://github.com/tikosewads/IslamicPrayerTimes) - by me
 
 ## Setup Proyek Secara Lokal
 
