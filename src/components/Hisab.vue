@@ -3,7 +3,10 @@
   <nav-bar></nav-bar>
 
   <div class="container w-11/12 sm:w-9/12 md:w-7/12 xl:w-8/12 mt-20">
-    <h1 class="font-bold text-gray-700 text-4xl">HISAB-IN</h1>
+    <h1 class="font-bold text-gray-700 text-2xl md:text-3xl xl:text-4xl">
+      PENGHITUNG
+      <span class="text-red-500">WAKTU SHOLAT</span>
+    </h1>
     <p class="text-gray-500 mb-6">
       <span class="text-lg font-semibold italic"
         >Hitung Waktu Sholatmu! (Experimental)
