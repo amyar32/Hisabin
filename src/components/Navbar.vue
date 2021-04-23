@@ -56,7 +56,7 @@
           class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start"
         >
           <a
-            href="https://github.com/tikosewads"
+            href="https://github.com/amyar32"
             target="_blank"
             class="flex-shrink-0 flex items-center"
           >
