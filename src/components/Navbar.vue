@@ -56,7 +56,7 @@
           class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start"
         >
           <a
-            href="https://github.com/amyar32"
+            href="https://hisabin.site"
             target="_blank"
             class="flex-shrink-0 flex items-center"
           >
@@ -103,7 +103,7 @@
           class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
         >
           <a
-            href="https://github.com/tikosewads"
+            href="https://github.com/amyar32"
             target="_blank"
             class="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
           >
